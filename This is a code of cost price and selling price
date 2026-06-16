@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int cp, sp ;
+    cout <<"Enter cost price : ";
+    cin >> cp;
+    cout <<"Enter selling price : ";
+    cin >> sp;
+
+    if (cp < sp) {
+        cout <<"Seller get profit from buyer ";
+    }
+
+    else if (sp < cp) {
+        cout <<"Seller get loss from buyer";
+    }
+
+    else {
+        cout <<"Seller has no profit no loss";
+    }
+}
